@@ -1,0 +1,329 @@
+/* reset.css */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+
+
+/* typography.css */
+
+#body {font-size:90%;color:#222;background:#fff; fond-family:"lucida grande",tahoma,verdana,arial,sans-serif;}
+body {font-size:90%;color:#000000;background:#fff; fond-family:"Alike",serif;}
+h1{
+    font-family: 'Alike', serif;
+    font-size:36px;
+}
+h2{
+    font-family: 'Alike', serif;
+    font-size:30px;
+}
+h1,h2,h3,h4,h5,h6 { border-bottom: 1px solid #cccccc; color: #333333; font-weight:400;}
+p {line-height:1.6em; margin-bottom: 1.2em; margin-top: 0px; font-size:13px;     font-family: 'Alike', serif;}
+
+/*html {font-size:100.01%;}
+h1,h2 {font-weight:normal;padding-left:2px; border-bottom:1px solid black;}
+h3, h4, h5, h6 {font-weight:normal;color:#111; background:#ffffff;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 .5em; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size:12px;line-height:1.25}
+.left {float:left !important;}
+p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
+.right {float:right !important;}
+p .right {margin:1.5em 0 1.5em 1.5em;padding:0;}
+a:focus, a:hover {color:#09f;}
+a {color:#06c;text-decoration:underline;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong, dfn {font-weight:bold;}
+em, dfn {font-style:italic;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:1.5em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tbody tr:nth-child(even) td, tbody tr.even td {background:#e5ecf9;}
+tfoot {font-style:italic;}
+caption {background:#eee;}
+.small {font-size:.8em;margin-bottom:1.875em;line-height:1.875em;}
+.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+.hide {display:none;}
+.quiet {color:#666;}
+.loud {color:#000;}
+.highlight {background:#ff0;}
+.added {background:#060;color:#fff;}
+.removed {background:#900;color:#fff;}
+.first {margin-left:0;padding-left:0;}
+.last {margin-right:0;padding-right:0;}
+.top {margin-top:0;padding-top:0;}
+.bottom {margin-bottom:0;padding-bottom:0;}
+*/
+
+.total-width{
+    width:994px;    
+}
+
+#bdybg{
+    #background: url('imgs/sidebg.png') repeat-y #ffffff;
+    background: #f5f5f5;
+    align:left;
+}
+
+#container{
+  margin:auto;
+  margin-top: 15px;
+  background: #ffffff;
+  width:998px;
+  padding-top:10px;
+}
+
+
+#headernav{
+   clear: both;
+   background: #000000;
+   margin-left: 4px;
+   margin-top: 4px;
+}
+
+#headernav ul{
+    font-family: 'Alike', serif;
+    font-size: 0.975em;
+    font-variant: small-caps;
+    height: 1.571em;
+    letter-spacing: 0.143em;
+    line-height: 1.428em;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    width: 100%;
+}
+
+ul,ol{
+   list-style: none outside none;
+}
+
+#headernav li{
+    display: inline;
+}
+
+#headernav li a {
+    background: none repeat scroll 0 0 #000000;
+    border-right: 0.071em solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 1.571em;
+    text-align: center;
+    width: 5em;
+}
+
+#headernav li.home a {
+    border-left: 0.214em solid #000000;
+    width: 9.786em;
+}
+
+#headernav li a.live:link, #headernav li a.live:visited, #headernav li a.live:focus, #headernav li a.live:hover, #headernav li a.live:active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-weight: 900;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+#footer{
+    margin-top: 20px;
+    margin-left: 4px;
+    border-top: 1px solid #cccccc;
+    height:2px;
+    border-bottom: 1px solid #cccccc;
+    width:994px;
+}
+
+.separator{
+   margin-top: 5px;
+   margin-left: 4px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+    width:994px;
+}
+
+#bannerimg{
+    margin-left: 4px;
+    margin-top:8px;
+    width:994px;
+}
+
+.img {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px;
+}
+
+#imgfrgnd{
+    position:relative; 
+    top:-46px; 
+    #background:url('imgs/imgbg.png');
+    background: black;
+    z-index:1;
+    opacity:0.2;
+    height:40px;
+}
+
+#left{
+    width: 749px;
+    background:#ffffff;
+    min-height:600px;
+    margin-left:4px;
+    float:left;
+    border-right:1px solid #cccccc;
+ 
+}
+
+#rightaside{
+    width: 234px;
+    min-height:10px;
+    margin-left:10px;
+    float:left;
+}
+
+#quote{
+    position:relative;
+    top:-83px;
+    left:-10px;
+    color:white;
+    font-size:14px;
+    font-family: "Alike", serif;
+    text-align:right;
+}
+
+#author{
+    position:relative;
+    top:-84px;
+    left:-10px;
+    color:white;
+    font-size:12px;
+    font-family: "Alike", serif;
+    text-align:right;
+    font-style: italic;
+}
+
+
+#rightaside h2{
+    color:#7a7a70;
+    font-size:1.25em;
+    border-bottom: 1px solid #cccccc;
+    height: 1.57em
+    margin-bottom: 5px;
+}
+
+#categories{
+    width:100%;
+    padding-top:4px;
+}
+#categories p {line-height:0.5em; margin-bottom: 0.6em; margin-top: 1px; font-size:13px;     font-family: 'Alike', serif;}
+
+#categories ul{
+    font-family: 'Alike', serif;
+    font-size: 0.800em;
+    height: .971em;
+    letter-spacing: 0.123em;
+    line-height: 1.428em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#categories li{
+    display: inline;
+}
+
+#categories li a {
+    background: none repeat scroll 0 0 #000000;
+    border: 0.071em solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 1.571em;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+#categories li.home a {
+    text-align:left;
+    width: 19.786em;
+    /*font-variant: small-caps;
+    text-transform: lowercase;*/
+}
+
+#categories li a.live:link, #categories li a.live:visited, #categories li a.live:focus, #categories li a.live:hover, #categories li a.live:active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-weight: 900;
+}
+
+#breadcrumbs{
+    margin-left:11px;
+    width:987px;
+    border-top: 1px dotted #cccccc;
+    border-bottom: 1px dotted #cccccc;
+    height:20px;
+}
+
+#breadcrumbs ul{
+    font-family: 'Alike', serif;
+    font-size: 0.800em;
+    height: .971em;
+    letter-spacing: 0.123em;
+    line-height: 1.428em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#breadcrumbs li{
+    display: inline;
+}
+
+#breadcrumbs  a {
+    font-family: 'Alike', serif;
+    font-size: 0.825em;
+    color: #000000;
+    height: 1.571em;
+    text-align: center;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#breadcrumbs  a.live:link, #breadcrumbs a.live:visited, #breadcrumbs a.live:focus, #breadcrumbs a.live:hover, #breadcrumbs a.live:active {
+    font-weight: 900;
+}
+
